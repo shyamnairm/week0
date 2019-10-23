@@ -72,3 +72,19 @@ table.Main{
  #items{
     text-align: justify;
  }
+ table.Contact{
+    border: 0px solid white;
+    padding: 0px
+ }
+ .Contact td#Right{
+     border: 0px solid white;
+     left: 2%;
+ }
+ .Contact td#Left{
+     border: 0px solid white;
+     left: 12%
+ }
+ .Contact td#Mid{
+    border: 0px solid white;
+    left: 10%
+ }
