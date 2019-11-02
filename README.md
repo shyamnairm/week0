@@ -1,4 +1,4 @@
-# week0
+# week0 Test at Github
 Assignment for Week 0
 This is a Webpage created for Hotel Zam Zam
 It consists of 4 Pages
