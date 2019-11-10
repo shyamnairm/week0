@@ -1,89 +1,107 @@
-html
-h1{
+html h1 {
     color: white;
     margin-left: 20px;
-  }
-#Head{ 
-    background-color:rgb(100, 150, 255);
+}
+
+#Head {
+    background-color: rgb(100, 150, 255);
     text-align: center;
     width: 100%;
     color: white;
 }
-table.Main{
-    text-align:center;
-    border:0.1px solid grey;
+
+table.Main {
+    text-align: center;
+    border: 0.1px solid grey;
     width: 100%;
     color: black;
     padding: 0.1px;
- }
- .Main td{
-     border:0.1px solid grey;
-     width:25%;
- }
- .Main tr{
-    border:0.1px solid grey;
-    width:25%;
- }
- h2{
-     text-align:center;
-     font-weight: bold;
-     color: Blue;
- }
- table.MenuHead{
-     text-align:center;
-     font-weight:bold;
-     border:2px solid blue;
-     width:100%
- }
- table.Menu{
-     text-align:center;
-     border:2px solid lawngreen;
-     width:100%
- }
- .Menu td{
-    border:0.1px solid grey;
-    width:30%;
- }
- #Smiley{
-     text-align: center;
- }
- #contact{
-     text-align:justify;
-     font-size: 150%;
- }
- h2{
-    text-align:center;
+}
+
+.Main td {
+    border: 0.1px solid grey;
+    width: 25%;
+}
+
+.Main tr {
+    border: 0.1px solid grey;
+    width: 25%;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    color: Blue;
+}
+
+table.MenuHead {
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid blue;
+    width: 100%
+}
+
+table.Menu {
+    text-align: center;
+    border: 2px solid lawngreen;
+    width: 100%
+}
+
+.Menu td {
+    border: 0.1px solid grey;
+    width: 30%;
+}
+
+#Smiley {
+    text-align: center;
+}
+
+#contact {
+    text-align: justify;
+    font-size: 150%;
+}
+
+h2 {
+    text-align: center;
     font-weight: bold;
     color: darkcyan;
- }
- #about{
-    text-align:justify;
+}
+
+#about {
+    text-align: justify;
     font-size: 150%;
- }
- #image{
+}
+
+#image {
     text-align: center;
     width: 85%;
- }
- #footer{
+}
+
+#footer {
     text-align: center;
- }
- #items{
+}
+
+#items {
     text-align: justify;
- }
- table.Contact{
+}
+
+table.Contact {
     border: 0px solid white;
     padding: 0px
- }
- .Contact td#Right{
-     border: 0px solid black;
-     left: 2%;
-     top: 2px
- }
- .Contact td#Left{
-     border: 0px solid white;
-     left: 12%;
- }
- .Contact td#Mid{
+}
+
+.Contact td#Right {
+    border: 0px solid black;
+    left: 2%;
+    top: 2px
+}
+
+.Contact td#Left {
+    border: 0px solid white;
+    left: 12%;
+}
+
+.Contact td#Mid {
     border: 0px solid white;
     left: 10%;
- }
+}

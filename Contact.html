@@ -1,45 +1,59 @@
 <!Doctype html>
 <html>
-    <head>
-        <link rel="Stylesheet" href="Home_Style.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <title>
-            Hotel ZamZam - Home Page
-        </title>
-    </head>
-    <body>
-            <div id="Head">
-                <h1>Hotel ZamZam</h1>
+
+<head>
+    <link rel="Stylesheet" href="Home_Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>
+        Hotel ZamZam - Home Page
+    </title>
+    <style>
+        @media (max-width:1000px) {
+            body {
+                background-color: lightskyblue;
+            }
+        }
+        
+        @media (min-width:1100px) {
+            body {
+                background-color: lightslategray;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Head">
+        <h1>Hotel ZamZam</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <a href="home.html" alt="Home">Home</a>
             </div>
-            <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <a href="home.html" alt="Home">Home</a>
-                        </div>
-                        <div class="col">
-                            <a href="menu.html" alt="Menu">Menu</a>
-                        </div>
-                        <div class="col">
-                            <a href="About.html" alt="About Us">About Us</a>
-                        </div>
-                        <div class="col-md-auto">
-                            <a href="Contact.html" alt="Contact Us">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
-        <br>
-        <h2>Contact Us</h2>
-        <div id="contact">
+            <div class="col">
+                <a href="menu.html" alt="Menu">Menu</a>
+            </div>
+            <div class="col">
+                <a href="About.html" alt="About Us">About Us</a>
+            </div>
+            <div class="col-md-auto">
+                <a href="Contact.html" alt="Contact Us">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <h2>Contact Us</h2>
+    <div id="contact">
         <p>
             We are always welcome to constructive criticism and are happy to hear from our beloved customers.
-            <br><br>
-            We thank all our customers for all the support. You can reach us on the below media.
+            <br><br> We thank all our customers for all the support. You can reach us on the below media.
             <br><br>
 
             <div class="container">
                 <div class="row">
                     <div class="col-align-items-end">
-                        Email Us @   :
+                        Email Us @ :
                     </div>
                     <div class="col justify-content-start">
                         customercare@hotelzamzam.com
@@ -47,7 +61,7 @@
                 </div>
                 <div class="row">
                     <div class="col-align-items-right">
-                        Phone No     :
+                        Phone No :
                     </div>
                     <div class="col justify-content-start">
                         +91-9100000019
@@ -69,5 +83,6 @@
             </div>
         </p>
     </div>
-    </body>
+</body>
+
 </html>

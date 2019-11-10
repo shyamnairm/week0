@@ -1,48 +1,63 @@
 <!Doctype html>
 <html>
-    <head>
-        <link rel="Stylesheet" href="Home_Style.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <title>
-            Hotel ZamZam - Home Page
-        </title>
-    </head>
-    <body>
-            <div id="Head">
-                <h1>Hotel ZamZam</h1>
+
+<head>
+    <link rel="Stylesheet" href="Home_Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>
+        Hotel ZamZam - Home Page
+    </title>
+    <style>
+        @media (max-width:1000px) {
+            body {
+                background-color: lightskyblue;
+            }
+        }
+        
+        @media (min-width:1100px) {
+            body {
+                background-color: lightslategray;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Head">
+        <h1>Hotel ZamZam</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <a href="home.html" alt="Home">Home</a>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <a href="home.html" alt="Home">Home</a>
-                    </div>
-                    <div class="col">
-                        <a href="menu.html" alt="Menu">Menu</a>
-                    </div>
-                    <div class="col">
-                        <a href="About.html" alt="About Us">About Us</a>
-                    </div>
-                    <div class="col-md-auto">
-                        <a href="Contact.html" alt="Contact Us">Contact Us</a>
-                    </div>
-                </div>
+            <div class="col">
+                <a href="menu.html" alt="Menu">Menu</a>
             </div>
-        <br>
-            <table class="MenuHead">
-            <th>
-                <h2>Menu Items</h2>
-            </th>
-            </table>
-            <table class="Menu">
-            <tr>
-                <td>
+            <div class="col">
+                <a href="About.html" alt="About Us">About Us</a>
+            </div>
+            <div class="col-md-auto">
+                <a href="Contact.html" alt="Contact Us">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <table class="MenuHead">
+        <th>
+            <h2>Menu Items</h2>
+        </th>
+    </table>
+    <table class="Menu">
+        <tr>
+            <td>
                 <UL id="items">
                     <li>Veg Starters
-                    <OL>
-                        <li>Gobi Manchurian</li>
-                        <li>Mushroom Chilly</li>
-                        <li>Paneer Chilly</li>
-                    </OL>
+                        <OL>
+                            <li>Gobi Manchurian</li>
+                            <li>Mushroom Chilly</li>
+                            <li>Paneer Chilly</li>
+                        </OL>
                     </li>
                     <li>Non Veg Starters
                         <ol>
@@ -88,8 +103,9 @@
                         </ol>
                     </li>
                 </UL>
-                </td>
-            </tr>
-        </table>
-    </body>
+            </td>
+        </tr>
+    </table>
+</body>
+
 </html>
